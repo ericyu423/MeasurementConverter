@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Measurement converter</string>
+    <string name="error">Please Enter Valid Number</string>
 </resources>

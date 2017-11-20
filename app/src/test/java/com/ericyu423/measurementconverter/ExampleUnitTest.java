@@ -14,4 +14,18 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void testmeterToInch()throws Exception{
+
+            MainActivity ma = new MainActivity();
+
+            Double result = ma.meterToInch(2.0);
+            Double actual = 2*3.28084;
+            assertEquals(result,actual);
+
+    }
+
+
+
 }

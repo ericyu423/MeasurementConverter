@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/balance" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300dp"
@@ -31,7 +31,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Enter In Meters"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName|number|numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.041" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/convertButton"
         android:layout_width="92dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -50,7 +50,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText1"
         app:layout_constraintVertical_bias="0.086" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Enter In Feets"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/convertButton" />
 
 </android.support.constraint.ConstraintLayout>
